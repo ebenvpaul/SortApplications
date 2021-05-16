@@ -1,0 +1,7 @@
+C:\Users\810192\source\repos\test\SortProgram\bin\Release\SortProgram.exe.config
+C:\Users\810192\source\repos\test\SortProgram\bin\Release\SortProgram.exe
+C:\Users\810192\source\repos\test\SortProgram\bin\Release\SortProgram.pdb
+C:\Users\810192\source\repos\test\SortProgram\obj\Release\SortProgram.csproj.CoreCompileInputs.cache
+C:\Users\810192\source\repos\test\SortProgram\obj\Release\SortProgram.exe
+C:\Users\810192\source\repos\test\SortProgram\obj\Release\SortProgram.pdb
+C:\Users\810192\source\repos\test\SortProgram\obj\Release\SortProgram.csprojAssemblyReference.cache
