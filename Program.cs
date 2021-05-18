@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 
 namespace SortProgram
 {
@@ -10,6 +11,8 @@ namespace SortProgram
     {
         static void Main(string[] args)
         {
+            Finish:
+            Console.Clear();
             Console.WriteLine("Different Algoriths and Searches!");
             // The code provided will print ‘Hello World’ to the console.
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
@@ -42,11 +45,14 @@ namespace SortProgram
 
             Console.Write("\n");
 
+         
 
             Console.WriteLine("Select the Operation");
             Console.WriteLine("Enter 1 for Merge Sort");
             Console.WriteLine("Enter 2 for Insertion Sort");
             Console.WriteLine("Enter 3 for Binary Search");
+            Console.WriteLine("Any Other will Exit Application");
+            Console.Write("\n");
             Console.WriteLine("Enter Your Prefered Operation");
             var _Input = Console.ReadLine();
             int intInput = 0;
@@ -56,6 +62,7 @@ namespace SortProgram
             }
             switch (intInput)
             {
+               
                 case 1:
                     Console.WriteLine("Selected Merge Sort");
                     #region MergeSortedElements
@@ -102,6 +109,12 @@ namespace SortProgram
                     #endregion
                     break;
 
+                case 0:
+                    Console.WriteLine("Selected Wrong Option");
+                    Console.WriteLine("Selected to Exit");
+                    Thread.Sleep(2000);
+                    return;
+
                 default:
                     Console.WriteLine("Selected Wrong Option");
                     break;
@@ -109,10 +122,13 @@ namespace SortProgram
 
             Console.Write("\n");
             Console.ReadKey();
+
+            goto Finish;
+
         }
 
 
-       
+
     }
 
 }
