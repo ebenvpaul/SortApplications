@@ -46,7 +46,7 @@ namespace SortProgram
             Console.WriteLine("Select the Operation");
             Console.WriteLine("Enter 1 for Merge Sort");
             Console.WriteLine("Enter 2 for Insertion Sort");
-            Console.WriteLine("Enter 3 for Bianry Search");
+            Console.WriteLine("Enter 3 for Binary Search");
             Console.WriteLine("Enter Your Prefered Operation");
             var _Input = Console.ReadLine();
             int intInput = 0;
@@ -88,7 +88,7 @@ namespace SortProgram
                 case 3:
                     Console.WriteLine("Selected Binary Search");
                     #region BinarySearch
-                    Console.WriteLine("Enter the Element to be Searched Search");
+                    Console.WriteLine("Enter the Element to be Searched Search : ");
                     BinarySearchAlgo binarySearchAlgo  = new BinarySearchAlgo();
                     var SearchNode = Console.ReadLine();
                     Console.WriteLine("You have Entered : " +SearchNode);
